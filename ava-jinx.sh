@@ -21,7 +21,7 @@ rmdir /home/${USER}/.local/share/Ryujinx-Ava/publish
 # download the icon
 echo "Downloading Icon..."
 mkdir -p /home/${USER}/.local/share/icons
-curl -L "https://github.com/Cerezoso25/ava-jinx/blob/20b60b62b9fa5908af495db403000641a71e1abe/Ryujinx.png" > /home/${USER}/.local/share/icons/Ryujinx.png
+curl -L "https://raw.githubusercontent.com/Cerezoso25/ava-jinx/4497a5d290a0879c5e3a4786f65e6a8591054f71/Ryujinx.png" > /home/${USER}/.local/share/icons/Ryujinx.png
 
 # remove the downloaded tarball
 rm test-ava-ryujinx-${version}-linux_x64.tar.gz
